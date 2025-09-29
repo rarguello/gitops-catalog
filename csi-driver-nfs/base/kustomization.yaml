@@ -6,6 +6,7 @@ namespace: csi-driver-nfs
 resources:
   - namespace.yaml
   - csi-nfs-scc.yaml
+  - storageclass.yaml
   - https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/refs/heads/master/deploy/v4.11.0/rbac-csi-nfs.yaml
   - https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/refs/heads/master/deploy/v4.11.0/csi-nfs-driverinfo.yaml
   - https://raw.githubusercontent.com/kubernetes-csi/csi-driver-nfs/refs/heads/master/deploy/v4.11.0/csi-nfs-controller.yaml
